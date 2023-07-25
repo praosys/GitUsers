@@ -1,3 +1,10 @@
+//
+//  UIImageExtension.swift
+//  GitUsers
+//
+//  Created by Prasanna Rao.
+//
+
 import UIKit
 
 extension UIImage {

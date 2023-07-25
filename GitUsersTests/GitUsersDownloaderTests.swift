@@ -1,8 +1,15 @@
+//
+//  GitUsersDownloaderTests.swift
+//  GitUsers
+//
+//  Created by Prasanna Rao.
+//
+
 import XCTest
 
 @testable import GitUsers
 
-final class Test1: XCTestCase {
+final class GitUsersDownloaderTests: XCTestCase {
     
     var sut: GitUsersDownloader!
 

@@ -23,7 +23,7 @@
 		A283494F21A5CDF100C5CA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A283494D21A5CDF100C5CA71 /* Main.storyboard */; };
 		A283495121A5CDF300C5CA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A283495021A5CDF300C5CA71 /* Assets.xcassets */; };
 		A283495421A5CDF300C5CA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A283495221A5CDF300C5CA71 /* LaunchScreen.storyboard */; };
-		A283495F21A5CDF300C5CA71 /* GitUsersCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A283495E21A5CDF300C5CA71 /* GitUsersCellViewModel.swift */; };
+		A283495F21A5CDF300C5CA71 /* GitUsersCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A283495E21A5CDF300C5CA71 /* GitUsersCellViewModelTests.swift */; };
 		A283497821A5D35300C5CA71 /* GitUsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A283497721A5D35300C5CA71 /* GitUsersCell.swift */; };
 		A283497C21A7ECC500C5CA71 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A283497B21A7ECC500C5CA71 /* NetworkService.swift */; };
 		A28349C221A84CA400C5CA71 /* GitUsersDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28349C021A84CA400C5CA71 /* GitUsersDownloader.swift */; };
@@ -60,7 +60,7 @@
 		A283495321A5CDF300C5CA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A283495521A5CDF300C5CA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A283495A21A5CDF300C5CA71 /* GitUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A283495E21A5CDF300C5CA71 /* GitUsersCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUsersCellViewModel.swift; sourceTree = "<group>"; };
+		A283495E21A5CDF300C5CA71 /* GitUsersCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUsersCellViewModelTests.swift; sourceTree = "<group>"; };
 		A283496021A5CDF300C5CA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A283496921A5CDF300C5CA71 /* GitUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUsersUITests.swift; sourceTree = "<group>"; };
 		A283496B21A5CDF300C5CA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 			children = (
 				544BD3C52A34530700D786B8 /* MockURLHelpers */,
 				54355E0D2A324E8B00FFD753 /* GitUsersDownloaderTests.swift */,
-				A283495E21A5CDF300C5CA71 /* GitUsersCellViewModel.swift */,
+				A283495E21A5CDF300C5CA71 /* GitUsersCellViewModelTests.swift */,
 				A283496021A5CDF300C5CA71 /* Info.plist */,
 			);
 			path = GitUsersTests;
@@ -344,7 +344,7 @@
 			files = (
 				546A646A2A33AC5400110953 /* MockURLSession.swift in Sources */,
 				54355E122A325C1D00FFD753 /* MockURLProtocol.swift in Sources */,
-				A283495F21A5CDF300C5CA71 /* GitUsersCellViewModel.swift in Sources */,
+				A283495F21A5CDF300C5CA71 /* GitUsersCellViewModelTests.swift in Sources */,
 				54355E0E2A324E8B00FFD753 /* GitUsersDownloaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

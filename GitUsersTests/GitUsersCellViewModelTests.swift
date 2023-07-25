@@ -1,3 +1,10 @@
+//
+//  GitUsersCellViewModelTests.swift
+//  GitUsers
+//
+//  Created by Prasanna Rao.
+//
+
 import XCTest
 
 @testable import GitUsers

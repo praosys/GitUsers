@@ -1,3 +1,10 @@
+//
+//  GitUsersCellViewModel.swift
+//  GitUsers
+//
+//  Created by Prasanna Rao.
+//
+
 import Foundation
 
 protocol GitUsersCellViewModelDelegate: AnyObject {
